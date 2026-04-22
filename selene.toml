@@ -1,0 +1,7 @@
+std = "vim+wezterm"
+
+[lints]
+unused_variable = "allow" # Using LuaLS
+
+[lints.global_usage]
+ignore_pattern = "_G.__vnix*"
